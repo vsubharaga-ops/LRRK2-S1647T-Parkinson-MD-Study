@@ -1,0 +1,26 @@
+# GROMACS binary files (too large for GitHub)
+*.xtc
+*.trr
+*.tpr
+*.edr
+*.cpt
+*.log
+*.mdp.bak
+*#*#
+
+# Large trajectory files
+*.gro
+*.top
+
+# Zone identifiers (WSL Windows artefacts)
+*:Zone.Identifier
+*.Identifier
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System files
+.DS_Store
+Thumbs.db

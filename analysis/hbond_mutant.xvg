@@ -1,0 +1,30 @@
+# This file was created Thu Apr  9 07:50:53 2026
+# Created by:
+#           :-) GROMACS - gmx hbond, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/raga/pd_project/mutant
+# Command line:
+#   gmx hbond -s md.tpr -f md_trimmed.xtc -num hbond_mutant.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+         0        1199        7946
+        10        1222        7779
+        20        1215        7683
+        30        1228        7710
+        40        1191        7706

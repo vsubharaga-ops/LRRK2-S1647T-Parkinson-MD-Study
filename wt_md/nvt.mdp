@@ -1,0 +1,31 @@
+title                   = NVT equilibration
+define                  = -DPOSRES
+
+integrator              = md
+nsteps                  = 50000
+dt                      = 0.002
+
+nstxout-compressed      = 1000
+nstenergy               = 1000
+nstlog                  = 1000
+
+cutoff-scheme           = Verlet
+nstlist                 = 20
+coulombtype             = PME
+rcoulomb                = 1.0
+rvdw                    = 1.0
+
+tcoupl                  = V-rescale
+tc-grps                 = Protein Non-Protein
+tau-t                   = 0.1     0.1
+ref-t                   = 310     310
+
+pcoupl                  = no
+
+constraints             = h-bonds
+constraint-algorithm    = LINCS
+
+pbc                     = xyz
+gen-vel                 = yes
+gen-temp                = 310
+gen-seed                = -1

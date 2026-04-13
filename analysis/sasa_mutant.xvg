@@ -1,0 +1,35 @@
+# This file was created Thu Apr  9 07:14:02 2026
+# Created by:
+#           :-) GROMACS - gmx sasa, 2023.3-Ubuntu_2023.3_1ubuntu3 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/raga/pd_project/mutant
+# Command line:
+#   gmx sasa -s md.tpr -f md_noPBC.xtc -o sasa_mutant.xvg -or sasa_res_mutant.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000  815.163
+     10.000  855.741
+     20.000  865.769
+     30.000  869.212
+     40.000  876.605
+     50.000  876.772
+     60.000  870.375
+     70.000  871.755
+     80.000  876.834
+     90.000  877.333
+    100.000  881.180
