@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LRRK2 S1647T Mutation — Parkinson's Disease Study
 
 ## Integrative WES and Molecular Dynamics Analysis
@@ -112,3 +113,7 @@ If you use this work, please cite:
 ## License
 
 MIT License — see LICENSE file for details.
+=======
+# LRRK2-S1647T-Parkinson-MD-Study
+Integrative WES and MD simulation study of S1647T mutation in LRRK2 for Parkinson's disease.
+>>>>>>> 9730258fa391c3f2a273665c6b188cd276843278
